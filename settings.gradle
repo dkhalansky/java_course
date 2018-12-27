@@ -1,0 +1,5 @@
+rootProject.name = 'kunch'
+include 'Protocol'
+include 'Server'
+include 'Client'
+include 'App'

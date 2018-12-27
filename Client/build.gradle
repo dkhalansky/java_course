@@ -1,0 +1,21 @@
+plugins {
+    id 'application'
+}
+
+group 'ru.ifmo.ct.khalansky'
+version '1.0'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':Protocol')
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+application {
+    mainClassName = "ru.ifmo.ct.khalansky.coursework.client.Main"
+}

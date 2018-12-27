@@ -1,0 +1,6 @@
+package ru.ifmo.ct.khalansky.coursework;
+
+message IntArray {
+  required int32 n = 1;
+  repeated int32 array = 2;
+}
