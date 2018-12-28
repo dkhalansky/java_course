@@ -1,0 +1,5 @@
+Separate threads
+changing d by [1, 3001.. 30001]
+n = 1500
+m = 5
+x = 130

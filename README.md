@@ -23,3 +23,8 @@ options available:
   * N is the number of elements in the sorted arrays;
   * M is the number of clients running simultaneously;
   * D is the cooldown between queries, *in microseconds*.
+
+Results
+=======
+
+Some measurements are available in the `Results/` directory.
